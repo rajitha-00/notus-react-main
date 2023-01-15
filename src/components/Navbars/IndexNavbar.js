@@ -38,16 +38,16 @@ export default function Navbar(props) {
               <li className="flex items-center">
                
                 <Link
-                  to="/landing"
+                  to="/services"
                    className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  Landing
+                  Services
                 </Link>
                 <Link
-                  to="/profile"
+                  to="/aboutus"
                    className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  Profile
+                  About US
                 </Link>
               </li>
               <li className="flex items-center">
